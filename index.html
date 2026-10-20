@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- WebCraft Brand & Favicon -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Decision Compass — مستشارك</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Amiri:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --gold: #c9a84c;
+    --gold-light: #e8c97a;
+    --gold-muted: #a88940;
+    --cream: #faf6ee;
+    --cream-dark: #f0e8d4;
+    --parchment: #e8dcc0;
+    --sage: #5c7a5e;
+    --sage-light: #7a9e7c;
+    --deep: #2c1f0e;
+    --amber: #8b5e1a;
+    --red-soft: #8b2a2a;
+    --border: rgba(201,168,76,0.3);
+    --shadow: rgba(26,18,8,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Textured background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(92,122,94,0.05) 0%, transparent 50%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23faf6ee'/%3E%3Crect width='1' height='1' fill='%23e8dcc0' opacity='0.3'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* HEADER */
+  header {
+    text-align: center;
+    padding: 60px 0 40px;
+    position: relative;
+  }
+
+  .arabic-header {
+    font-family: 'Amiri', serif;
+    font-size: 2.2rem;
+    color: var(--gold-muted);
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.1s;
+  }
+
+  .bismillah {
+    font-family: 'Amiri', serif;
+    font-size: 1.3rem;
+    color: var(--amber);
+    margin-bottom: 24px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.3s;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    color: var(--deep);
+    line-height: 1.1;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.5s;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    color: var(--amber);
+    margin-top: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.7s;
+  }
+
+  .ornament {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 28px 0;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.9s;
+  }
+
+  .ornament-line {
+    height: 1px;
+    width: 80px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  .ornament-diamond {
+    width: 8px;
+    height: 8px;
+    background: var(--gold);
+    transform: rotate(45deg);
+  }
+
+  /* HADITH BOX */
+  .hadith-box {
+    background: linear-gradient(135deg, var(--deep) 0%, #3d2a12 100%);
+    border: 1px solid var(--gold-muted);
+    border-radius: 4px;
+    padding: 28px 36px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 1.1s;
+  }
+
+  .hadith-box::before {
+    content: '❝';
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 5rem;
+    color: var(--gold);
+    opacity: 0.12;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .hadith-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 1.2rem;
+    color: var(--gold-light);
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 14px;
+    line-height: 1.8;
+  }
+
+  .hadith-translation {
+    font-size: 0.88rem;
+    color: rgba(250,246,238,0.75);
+    text-align: center;
+    font-style: italic;
+    line-height: 1.7;
+  }
+
+  .hadith-source {
+    font-size: 0.78rem;
+    color: var(--gold-muted);
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* SECTION TITLES */
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--deep);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold-muted), transparent);
+  }
+
+  .section-meta {
+    font-size: 0.82rem;
+    color: var(--amber);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  /* DECISION INPUT */
+  .decision-input-section {
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 1.3s;
+  }
+
+  .decision-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--deep);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  textarea {
+    width: 100%;
+    background: white;
+    border: 1px solid var(--parchment);
+    border-bottom: 2px solid var(--gold-muted);
+    border-radius: 4px 4px 0 0;
+    padding: 16px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: var(--deep);
+    resize: vertical;
+    min-height: 80px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.04);
+  }
+
+  textarea:focus { border-color: var(--gold); }
+  textarea::placeholder { color: #bba980; }
+
+  /* PANELS */
+  .panels {
+    display: grid;
+    gap: 28px;
+    margin-bottom: 40px;
+  }
+
+  .panel {
+    background: white;
+    border: 1px solid var(--parchment);
+    border-top: 3px solid var(--gold);
+    border-radius: 0 0 4px 4px;
+    padding: 28px;
+    box-shadow: 0 4px 20px var(--shadow);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: box-shadow 0.3s;
+  }
+
+  .panel:hover { box-shadow: 0 8px 30px var(--shadow); }
+
+  .panel.visible {
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+
+  .panel-icon {
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(135deg, var(--deep), var(--amber));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    color: var(--gold-light);
+  }
+
+  .panel-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--deep);
+  }
+
+  .panel-desc {
+    font-size: 0.83rem;
+    color: #8a7355;
+    margin-top: 3px;
+    line-height: 1.5;
+  }
+
+  /* QUESTIONS */
+  .question-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .question-item {
+    border-left: 2px solid var(--parchment);
+    padding-left: 16px;
+    transition: border-color 0.3s;
+  }
+
+  .question-item:hover { border-left-color: var(--gold); }
+
+  .question-text {
+    font-size: 0.92rem;
+    color: var(--ink);
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+  .answer-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .answer-btn {
+    padding: 5px 14px;
+    border: 1px solid var(--parchment);
+    border-radius: 20px;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    color: #8a7355;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .answer-btn:hover {
+    border-color: var(--gold-muted);
+    color: var(--amber);
+  }
+
+  .answer-btn.selected-yes {
+    background: var(--sage);
+    border-color: var(--sage);
+    color: white;
+  }
+
+  .answer-btn.selected-no {
+    background: var(--red-soft);
+    border-color: var(--red-soft);
+    color: white;
+  }
+
+  .answer-btn.selected-unsure {
+    background: var(--amber);
+    border-color: var(--amber);
+    color: white;
+  }
+
+  /* FORMULA PANELS */
+  .formula-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 6px;
+  }
+
+  @media (max-width: 600px) { .formula-grid { grid-template-columns: 1fr; } }
+
+  .formula-card {
+    background: var(--cream);
+    border: 1px solid var(--parchment);
+    border-radius: 4px;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .formula-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: var(--gold);
+    transform: scaleY(0);
+    transition: transform 0.3s;
+    transform-origin: bottom;
+  }
+
+  .formula-card:hover::before { transform: scaleY(1); }
+  .formula-card:hover { border-color: var(--gold-muted); box-shadow: 0 4px 16px var(--shadow); }
+
+  .formula-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    color: var(--deep);
+    margin-bottom: 5px;
+  }
+
+  .formula-description {
+    font-size: 0.78rem;
+    color: #8a7355;
+    line-height: 1.5;
+  }
+
+  .formula-detail {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--parchment);
+    font-size: 0.8rem;
+    color: var(--ink);
+    line-height: 1.7;
+  }
+
+  .formula-card.expanded .formula-detail { display: block; }
+
+  .formula-step {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+    align-items: flex-start;
+  }
+
+  .formula-step-num {
+    width: 20px;
+    height: 20px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--deep);
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ISTIKHARAH SECTION */
+  .istikhara-box {
+    background: linear-gradient(135deg, #1f2c1a 0%, #2a3d1f 100%);
+    border: 1px solid var(--sage);
+    border-radius: 4px;
+    padding: 28px;
+    color: white;
+    margin-bottom: 28px;
+  }
+
+  .istikhara-title {
+    font-family: 'Amiri', serif;
+    font-size: 1.4rem;
+    color: var(--sage-light);
+    margin-bottom: 6px;
+  }
+
+  .istikhara-english {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.9);
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+
+  .istikhara-body {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.72);
+    line-height: 1.8;
+  }
+
+  .istikhara-steps {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .istikhara-step {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .istikhara-step-icon {
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+
+  /* WEIGHING SCALE */
+  .scale-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 10px;
+  }
+
+  .scale-side {
+    background: var(--cream);
+    border: 1px solid var(--parchment);
+    border-radius: 4px;
+    padding: 16px;
+  }
+
+  .scale-side-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .scale-side.pros .scale-side-title { color: var(--sage); }
+  .scale-side.cons .scale-side-title { color: var(--red-soft); }
+
+  .scale-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--parchment);
+    background: transparent;
+    padding: 6px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink);
+    outline: none;
+    margin-bottom: 6px;
+    display: block;
+    transition: border-color 0.2s;
+  }
+
+  .scale-input:focus { border-color: var(--gold-muted); }
+  .scale-input::placeholder { color: #bba980; }
+
+  .add-row-btn {
+    background: none;
+    border: 1px dashed var(--parchment);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    color: #bba980;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: all 0.2s;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .add-row-btn:hover { border-color: var(--gold-muted); color: var(--amber); }
+
+  /* SCORE METER */
+  .score-section {
+    margin-top: 32px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .score-section.visible { opacity: 1; }
+
+  .score-ring-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+  }
+
+  .score-ring {
+    width: 140px;
+    height: 140px;
+  }
+
+  .score-ring-bg {
+    fill: none;
+    stroke: var(--parchment);
+    stroke-width: 8;
+  }
+
+  .score-ring-fill {
+    fill: none;
+    stroke: var(--gold);
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 339.3;
+    stroke-dashoffset: 339.3;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 1s ease, stroke 0.5s;
+  }
+
+  .score-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .score-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--deep);
+  }
+
+  .score-label {
+    font-size: 0.72rem;
+    color: #8a7355;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .score-verdict {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--deep);
+    margin: 8px 0 4px;
+  }
+
+  .score-guidance {
+    font-size: 0.88rem;
+    color: #8a7355;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* CALCULATE BUTTON */
+  .calc-btn {
+    display: block;
+    margin: 28px auto 0;
+    padding: 14px 48px;
+    background: linear-gradient(135deg, var(--deep) 0%, var(--amber) 100%);
+    color: var(--gold-light);
+    border: none;
+    border-radius: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 20px rgba(26,18,8,0.25);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .calc-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(201,168,76,0.2), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .calc-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(26,18,8,0.35); }
+  .calc-btn:hover::after { opacity: 1; }
+  .calc-btn:active { transform: translateY(0); }
+
+  /* FINAL REFLECTION */
+  .reflection-panel {
+    background: linear-gradient(135deg, var(--deep) 0%, #2c1f0e 100%);
+    border: 1px solid var(--gold-muted);
+    border-radius: 4px;
+    padding: 32px;
+    margin-top: 32px;
+    text-align: center;
+    display: none;
+  }
+
+  .reflection-panel.visible { display: block; }
+
+  .reflection-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 1.3rem;
+    color: var(--gold-light);
+    direction: rtl;
+    margin-bottom: 12px;
+    line-height: 1.8;
+  }
+
+  .reflection-text {
+    font-size: 0.9rem;
+    color: rgba(250,246,238,0.8);
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+
+  .reflection-notes {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(201,168,76,0.2);
+    border-radius: 4px;
+    padding: 14px;
+    color: rgba(250,246,238,0.85);
+    font-family: 'Lato', sans-serif;
+    font-size: 0.88rem;
+    min-height: 80px;
+    resize: vertical;
+    outline: none;
+  }
+
+  .reflection-notes::placeholder { color: rgba(201,168,76,0.35); }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 0.78rem;
+    color: #bba980;
+    border-top: 1px solid var(--parchment);
+    margin-top: 60px;
+  }
+
+  footer .arabic-footer {
+    font-family: 'Amiri', serif;
+    font-size: 1rem;
+    color: var(--gold-muted);
+    margin-bottom: 6px;
+  }
+
+  /* ANIMATIONS */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .panel-delay-1 { animation-delay: 0.1s; }
+  .panel-delay-2 { animation-delay: 0.2s; }
+  .panel-delay-3 { animation-delay: 0.3s; }
+  .panel-delay-4 { animation-delay: 0.4s; }
+
+  /* DIVIDER */
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0;
+  }
+
+  .divider-line { flex: 1; height: 1px; background: var(--parchment); }
+  .divider-center { font-family: 'Amiri', serif; font-size: 1.1rem; color: var(--gold-muted); white-space: nowrap; }
+
+  /* CHECKLIST INDICATORS */
+  .answer-indicator {
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .ind-yes { background: var(--sage); }
+  .ind-no { background: var(--red-soft); }
+  .ind-unsure { background: var(--amber); }
+
+  /* ── META-ANALYSIS ─────────────────────────────────────── */
+  .meta-panel {
+    background: linear-gradient(135deg, #12181f 0%, #1a2535 100%);
+    border: 1px solid rgba(100,160,220,0.25);
+    border-top: 3px solid #4a90d9;
+    border-radius: 0 0 4px 4px;
+    padding: 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .meta-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: #a8c8f0;
+    margin-bottom: 4px;
+  }
+  .meta-desc { font-size: 0.82rem; color: rgba(168,200,240,0.6); margin-bottom: 20px; line-height:1.5; }
+  .meta-q { margin-bottom: 18px; }
+  .meta-q-text { font-size: 0.88rem; color: rgba(255,255,255,0.8); margin-bottom: 8px; line-height:1.5; }
+  .meta-options { display: flex; gap: 6px; flex-wrap: wrap; }
+  .meta-btn {
+    padding: 5px 13px;
+    border: 1px solid rgba(100,160,220,0.3);
+    border-radius: 20px;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.78rem;
+    color: rgba(168,200,240,0.7);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .meta-btn:hover { border-color: #4a90d9; color: #a8c8f0; }
+  .meta-btn.meta-selected { background: #4a90d9; border-color: #4a90d9; color: white; }
+  .bias-report {
+    margin-top: 20px;
+    padding: 16px;
+    background: rgba(0,0,0,0.25);
+    border-radius: 4px;
+    border-left: 3px solid #e8a030;
+    display: none;
+  }
+  .bias-report.visible { display: block; }
+  .bias-report-title { font-size: 0.75rem; color: #e8a030; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+  .bias-tag {
+    display: inline-block;
+    background: rgba(232,160,48,0.15);
+    border: 1px solid rgba(232,160,48,0.4);
+    color: #e8c87a;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    margin: 3px 3px 3px 0;
+  }
+  .bias-advice { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 10px; line-height: 1.7; }
+
+  /* ── FINANCIAL SNAPSHOT ────────────────────────────────── */
+  .fin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  @media(max-width:560px){ .fin-grid { grid-template-columns: 1fr; } }
+  .fin-field label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--amber);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 5px;
+  }
+  .fin-input {
+    width: 100%;
+    background: var(--cream);
+    border: 1px solid var(--parchment);
+    border-bottom: 2px solid var(--gold-muted);
+    border-radius: 4px 4px 0 0;
+    padding: 9px 12px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    color: var(--deep);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .fin-input:focus { border-color: var(--gold); }
+  .fin-result {
+    margin-top: 16px;
+    padding: 16px;
+    background: var(--cream-dark);
+    border: 1px solid var(--parchment);
+    border-radius: 4px;
+    display: none;
+  }
+  .fin-result.visible { display: block; }
+  .fin-result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px dashed var(--parchment);
+    font-size: 0.83rem;
+  }
+  .fin-result-row:last-child { border-bottom: none; }
+  .fin-result-label { color: #8a7355; }
+  .fin-result-value { font-weight: 700; color: var(--deep); font-family: 'Playfair Display', serif; }
+  .fin-verdict {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 0.83rem;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  .fin-verdict.good { background: rgba(92,122,94,0.12); border-left: 3px solid var(--sage); color: #3a5c3d; }
+  .fin-verdict.warn { background: rgba(201,168,76,0.12); border-left: 3px solid var(--gold); color: #6b5010; }
+  .fin-verdict.bad  { background: rgba(139,42,42,0.10); border-left: 3px solid var(--red-soft); color: var(--red-soft); }
+  .fin-calc-btn {
+    margin-top: 12px;
+    padding: 8px 24px;
+    background: var(--deep);
+    color: var(--gold-light);
+    border: none;
+    border-radius: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .fin-calc-btn:hover { background: var(--amber); }
+
+  /* ── REVERSIBILITY MATRIX ──────────────────────────────── */
+  .matrix-axes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  .axis-card {
+    border: 1px solid var(--parchment);
+    border-radius: 4px;
+    padding: 14px;
+    background: var(--cream);
+  }
+  .axis-label { font-size: 0.75rem; color: var(--amber); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+  .axis-slider { width: 100%; accent-color: var(--gold); cursor: pointer; }
+  .axis-val { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--deep); margin-top: 6px; }
+  .matrix-result {
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    display: none;
+    border: 1px solid var(--parchment);
+  }
+  .matrix-result.visible { display: block; }
+  .matrix-quadrant {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--deep);
+    margin-bottom: 6px;
+  }
+  .matrix-advice { font-size: 0.83rem; color: #8a7355; line-height: 1.7; }
+  .matrix-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* ── SCENARIO COMPARISON ───────────────────────────────── */
+  .scenario-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .scenario-tab {
+    padding: 6px 18px;
+    border: 1px solid var(--parchment);
+    border-radius: 20px;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.82rem;
+    color: #8a7355;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .scenario-tab.active { background: var(--deep); color: var(--gold-light); border-color: var(--deep); }
+  .scenario-form { display: none; }
+  .scenario-form.active { display: block; }
+  .scenario-name-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--gold-muted);
+    background: transparent;
+    padding: 6px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: var(--deep);
+    outline: none;
+    margin-bottom: 16px;
+  }
+  .scenario-name-input::placeholder { color: #bba980; }
+  .scenario-sliders { display: flex; flex-direction: column; gap: 12px; }
+  .slider-row { display: flex; align-items: center; gap: 12px; }
+  .slider-row label { font-size: 0.78rem; color: #8a7355; width: 120px; flex-shrink: 0; }
+  .slider-row input[type=range] { flex: 1; accent-color: var(--gold); cursor: pointer; }
+  .slider-row .sval { font-family: 'Playfair Display', serif; font-size: 0.9rem; color: var(--deep); width: 24px; text-align: right; }
+  .scenario-compare-btn {
+    margin-top: 16px;
+    padding: 9px 28px;
+    background: linear-gradient(135deg, var(--deep), var(--amber));
+    color: var(--gold-light);
+    border: none;
+    border-radius: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .scenario-compare-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .scenario-results {
+    margin-top: 20px;
+    display: none;
+  }
+  .scenario-results.visible { display: block; }
+  .scenario-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .scenario-bar-label { font-size: 0.82rem; color: var(--deep); width: 130px; flex-shrink:0; font-family:'Playfair Display',serif; }
+  .scenario-bar-track { flex: 1; background: var(--parchment); border-radius: 4px; height: 10px; overflow: hidden; }
+  .scenario-bar-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--gold-muted), var(--gold)); transition: width 1s ease; }
+  .scenario-bar-score { font-size: 0.78rem; color: var(--amber); width: 36px; text-align: right; font-family:'Playfair Display',serif; }
+  .scenario-winner { text-align:center; padding:12px; background: rgba(92,122,94,0.1); border:1px solid rgba(92,122,94,0.3); border-radius:4px; margin-top:12px; }
+  .scenario-winner-title { font-family:'Playfair Display',serif; color: var(--sage); font-size:1rem; }
+  .scenario-winner-note { font-size:0.78rem; color:#8a7355; margin-top:4px; }
+
+  /* ── DECISION JOURNAL ──────────────────────────────────── */
+  .journal-empty { font-size:0.85rem; color:#bba980; text-align:center; padding:24px; font-style:italic; }
+  .journal-entry {
+    border: 1px solid var(--parchment);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    background: var(--cream);
+    position: relative;
+  }
+  .journal-entry-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px; }
+  .journal-entry-decision { font-family:'Playfair Display',serif; font-size:0.92rem; color:var(--deep); flex:1; }
+  .journal-entry-date { font-size:0.72rem; color:#bba980; white-space:nowrap; margin-left:10px; }
+  .journal-entry-meta { display:flex; gap:8px; flex-wrap:wrap; margin-top:6px; }
+  .journal-tag {
+    font-size:0.7rem; padding:2px 9px; border-radius:10px;
+    border: 1px solid var(--parchment); color:#8a7355;
+  }
+  .journal-tag.score-high { border-color:var(--sage); color:var(--sage); }
+  .journal-tag.score-mid  { border-color:var(--gold-muted); color:var(--amber); }
+  .journal-tag.score-low  { border-color:var(--red-soft); color:var(--red-soft); }
+  .journal-revisit { font-size:0.75rem; color:var(--amber); margin-top:6px; }
+  .journal-delete-btn {
+    position:absolute; top:10px; right:10px;
+    background:none; border:none; color:#ccc; cursor:pointer; font-size:0.8rem;
+    transition: color 0.2s;
+  }
+  .journal-delete-btn:hover { color: var(--red-soft); }
+  .journal-save-btn {
+    display:block; width:100%; margin-top:12px;
+    padding:10px;
+    background: var(--deep);
+    color: var(--gold-light);
+    border: none; border-radius:2px;
+    font-family:'Playfair Display',serif; font-size:0.9rem;
+    cursor:pointer; transition:all 0.2s;
+  }
+  .journal-save-btn:hover { background: var(--amber); }
+  .revisit-select {
+    width:100%; margin-top:10px;
+    border:1px solid var(--parchment);
+    border-bottom:2px solid var(--gold-muted);
+    background:white; padding:8px 10px;
+    font-family:'Lato',sans-serif; font-size:0.85rem;
+    color:var(--deep); outline:none; border-radius:4px 4px 0 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <div class="arabic-header">مستشارك في القرار</div>
+    <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+    <h1>The Decision Compass</h1>
+    <p class="subtitle">A framework for clarity, guided by faith and reason</p>
+    <div class="ornament">
+      <div class="ornament-line"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-diamond" style="background:var(--gold-light);width:5px;height:5px;"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-line"></div>
+    </div>
+  </header>
+
+  <!-- HADITH -->
+  <div class="hadith-box">
+    <div class="hadith-arabic">«مَا خَابَ مَنِ اسْتَخَارَ، وَلا نَدِمَ مَنِ اسْتَشَارَ»</div>
+    <div class="hadith-translation">"Whoever performs Istikhara will not be disappointed, and whoever sincerely consults others will not regret."</div>
+    <div class="hadith-source">— Attributed to the scholars of Islamic jurisprudence</div>
+  </div>
+
+  <!-- STEP 0: WRITE THE DECISION -->
+  <div class="decision-input-section">
+    <div class="section-title">Write Your Decision</div>
+    <div class="section-meta">Name what you are facing — clarity begins with articulation</div>
+    <label class="decision-label" for="decisionText">I am deciding whether to…</label>
+    <textarea id="decisionText" placeholder="e.g., accept this job offer in another city / marry this person / leave my studies / start this business…"></textarea>
+  </div>
+
+  <!-- SECTION 1: ISTIKHARA REMINDER -->
+  <div class="istikhara-box panel visible">
+    <div class="istikhara-title">صلاة الاستخارة</div>
+    <div class="istikhara-english">Salat al-Istikhara — The Prayer of Guidance</div>
+    <div class="istikhara-body">
+      Before engaging your mind, engage your Lord. Istikhara is not about receiving a dream or a sign — it is about submitting your will to Allah's wisdom and asking Him to ordain what is best for your deen, your dunya, and your akhira.
+    </div>
+    <div class="istikhara-steps">
+      <div class="istikhara-step">
+        <span class="istikhara-step-icon">🕌</span>
+        <span>Perform two rak'ahs (non-obligatory) with the intention of Istikhara</span>
+      </div>
+      <div class="istikhara-step">
+        <span class="istikhara-step-icon">🤲</span>
+        <span>Recite the du'a of Istikhara, filling in the matter you seek guidance on</span>
+      </div>
+      <div class="istikhara-step">
+        <span class="istikhara-step-icon">💭</span>
+        <span>Then use your God-given 'aql (reason) — that is also part of worship</span>
+      </div>
+      <div class="istikhara-step">
+        <span class="istikhara-step-icon">🔄</span>
+        <span>Repeat over days if needed. Look for shifts in your heart's inclination</span>
+      </div>
+    </div>
+
+    <!-- DUA SECTION -->
+    <div style="margin-top: 24px; border-top: 1px solid rgba(201,168,76,0.2); padding-top: 20px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; flex-wrap:wrap; gap:8px;">
+        <div style="font-family:'Playfair Display',serif; font-size:1rem; color:var(--gold-light);">Du'a al-Istikhara</div>
+        <div style="font-size:0.75rem; color:rgba(201,168,76,0.6); letter-spacing:0.08em; text-transform:uppercase;">Sahih al-Bukhari — Narrated by Jabir ibn Abdullah ؓ</div>
+      </div>
+
+      <!-- ARABIC -->
+      <div style="font-family:'Amiri',serif; font-size:1.35rem; color:var(--gold-light); direction:rtl; line-height:2.2; text-align:center; background:rgba(0,0,0,0.2); border-radius:4px; padding:20px 18px; margin-bottom:16px; border:1px solid rgba(201,168,76,0.15);">
+        اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ،
+        فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ.
+        اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ
+        <span style="color:var(--gold); font-weight:700;">[اذكر الأمر]</span>
+        خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي، فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي، ثُمَّ بَارِكْ لِي فِيهِ.
+        وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي،
+        فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ، وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ، ثُمَّ أَرْضِنِي بِهِ.
+      </div>
+
+      <!-- TRANSLITERATION -->
+      <div style="background:rgba(255,255,255,0.04); border-radius:4px; padding:14px 18px; margin-bottom:14px; border-left:2px solid rgba(201,168,76,0.3);">
+        <div style="font-size:0.7rem; color:rgba(201,168,76,0.5); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:8px;">Transliteration</div>
+        <div style="font-size:0.82rem; color:rgba(250,246,238,0.7); line-height:1.9; font-style:italic;">
+          Allahumma inni astakhiruka bi-'ilmika, wa astaqdiruka bi-qudratika, wa as-aluka min fadlika al-'azim,
+          fa-innaka taqdiru wa la aqdiru, wa ta'lamu wa la a'lamu, wa anta 'allamu al-ghuyub.
+          Allahumma in kunta ta'lamu anna hadha al-amra
+          <span style="color:var(--gold-light); font-weight:600;">[name the matter]</span>
+          khayrun li fi dini wa ma'ashi wa 'aqibati amri, faqdurhu li wa yassirhu li, thumma barik li fihi.
+          Wa in kunta ta'lamu anna hadha al-amra sharrun li fi dini wa ma'ashi wa 'aqibati amri,
+          fasrifhu 'anni wasrifni 'anhu, waqdur li al-khayra haythu kana, thumma ardini bihi.
+        </div>
+      </div>
+
+      <!-- TRANSLATION -->
+      <div style="font-size:0.83rem; color:rgba(250,246,238,0.65); line-height:1.9; text-align:center; padding: 0 8px;">
+        <span style="color:rgba(201,168,76,0.6); font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; display:block; margin-bottom:8px;">Translation</span>
+        "O Allah, I seek Your guidance by Your knowledge, and I seek ability by Your power, and I ask of Your great bounty.
+        For You have power and I do not, and You know and I do not, and You are the Knower of all unseen things.
+        O Allah, if You know that this matter —
+        <span style="color:var(--gold-light);">[name it here]</span>
+        — is good for me in my religion, my livelihood, and the outcome of my affairs, then ordain it for me, make it easy for me, and bless me in it.
+        And if You know that this matter is bad for me in my religion, my livelihood, and the outcome of my affairs,
+        then turn it away from me and turn me away from it, and ordain for me whatever is good wherever it may be, and make me pleased with it."
+      </div>
+
+      <div style="margin-top:14px; font-size:0.75rem; color:rgba(201,168,76,0.5); text-align:center;">
+        📖 Reference: Sahih al-Bukhari, Book of Tahajjud, Hadith 1166
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">الفكر والحكمة — Reflection & Wisdom</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- SECTION 2: FUNDAMENTAL QUESTIONS -->
+  <div class="section-title">The Foundational Questions</div>
+  <div class="section-meta">Answer honestly — these are for your eyes and Allah's knowledge</div>
+
+  <div class="panels">
+
+    <!-- DEEN PANEL -->
+    <div class="panel visible panel-delay-1" id="panel-deen">
+      <div class="panel-header">
+        <div class="panel-icon">☪</div>
+        <div>
+          <div class="panel-title">Deen & Halal Standard</div>
+          <div class="panel-desc">The non-negotiable filter — if this fails, stop here.</div>
+        </div>
+      </div>
+      <ul class="question-list" id="q-deen"></ul>
+    </div>
+
+    <!-- NIYYAH PANEL -->
+    <div class="panel visible panel-delay-2" id="panel-niyyah">
+      <div class="panel-header">
+        <div class="panel-icon">💎</div>
+        <div>
+          <div class="panel-title">Niyyah & Inner Clarity</div>
+          <div class="panel-desc">What drives you toward this — fear, desire, or purpose?</div>
+        </div>
+      </div>
+      <ul class="question-list" id="q-niyyah"></ul>
+    </div>
+
+    <!-- CONSEQUENCES PANEL -->
+    <div class="panel visible panel-delay-3" id="panel-consequences">
+      <div class="panel-header">
+        <div class="panel-icon">⚖</div>
+        <div>
+          <div class="panel-title">Consequences & Ripples</div>
+          <div class="panel-desc">Every decision sends waves — map them honestly.</div>
+        </div>
+      </div>
+      <ul class="question-list" id="q-consequences"></ul>
+    </div>
+
+    <!-- PEOPLE PANEL -->
+    <div class="panel visible panel-delay-4" id="panel-people">
+      <div class="panel-header">
+        <div class="panel-icon">🤝</div>
+        <div>
+          <div class="panel-title">People & Obligations</div>
+          <div class="panel-desc">Your rights and the rights of others upon you.</div>
+        </div>
+      </div>
+      <ul class="question-list" id="q-people"></ul>
+    </div>
+
+  </div>
+
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">الأدوات — Expert Frameworks</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- SECTION 3: EXPERT FRAMEWORKS -->
+  <div class="section-title">Decision Frameworks</div>
+  <div class="section-meta">Click any framework to expand its methodology</div>
+
+  <div class="formula-grid" style="margin-bottom:32px;">
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">⚖ Pros & Cons — Weighted</div>
+      <div class="formula-description">Assign a weight (1–5) to each factor. Not all pros are equal.</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div>List all benefits and harms, major and minor</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div>Assign each a weight from 1 (trivial) to 5 (life-altering)</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div>Sum the weights for each side</div></div>
+        <div class="formula-step"><div class="formula-step-num">4</div><div>If pros total ≥ cons, it leans forward — but also consider reversibility</div></div>
+        <div style="margin-top:10px; padding:10px; background:rgba(201,168,76,0.08); border-radius:4px; font-size:0.77rem; color:var(--amber);">
+          📌 Islamic note: Factor weight for impact on your deen should always be ≥ 5
+        </div>
+      </div>
+    </div>
+
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">🔮 10 / 10 / 10 Rule</div>
+      <div class="formula-description">How will you feel in 10 minutes, 10 months, 10 years?</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div><strong>10 minutes after deciding:</strong> Relief? Regret? Excitement? Dread?</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div><strong>10 months later:</strong> What is your life like? Has this shaped you positively?</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div><strong>10 years later:</strong> Will you wish you had chosen differently? What do you hope for?</div></div>
+        <div style="margin-top:10px; font-size:0.77rem; color:var(--amber);">📌 Add: What will your answer be on Yawm al-Qiyamah?</div>
+      </div>
+    </div>
+
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">🧠 Regret Minimization</div>
+      <div class="formula-description">Jeff Bezos's framework — project forward to age 80.</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div>Imagine yourself at age 80, looking back on this moment</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div>Would you regret NOT taking this path more than taking it?</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div>We regret inaction more than action — but test this honestly</div></div>
+        <div style="margin-top:10px; font-size:0.77rem; color:var(--amber);">📌 Islamic addition: Regret on the Day of Judgment > regret at 80</div>
+      </div>
+    </div>
+
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">🌡 The Gut + Data Check</div>
+      <div class="formula-description">When logic and intuition conflict, run this protocol.</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div>Write: "My gut says ___". Then list why it says that</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div>Gather 3 concrete facts that support or challenge your gut</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div>If gut and data align → high confidence. If opposed → dig deeper</div></div>
+        <div style="margin-top:10px; font-size:0.77rem; color:var(--amber);">📌 In Islam, the heart (qalb) often carries spiritual intuition — do not ignore it</div>
+      </div>
+    </div>
+
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">🚦 Worst Case Stress Test</div>
+      <div class="formula-description">Assume everything goes wrong. Can you survive it?</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div>Define the absolute worst realistic outcome</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div>Ask: is this survivable, recoverable, or catastrophic?</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div>If survivable → fear should not stop you. Plan mitigation</div></div>
+        <div class="formula-step"><div class="formula-step-num">4</div><div>If catastrophic → only proceed with exceptional justification</div></div>
+        <div style="margin-top:10px; font-size:0.77rem; color:var(--amber);">📌 "And whoever relies upon Allah — then He is sufficient for him" (65:3)</div>
+      </div>
+    </div>
+
+    <div class="formula-card" onclick="toggleFormula(this)">
+      <div class="formula-name">📜 The Shura Principle</div>
+      <div class="formula-description">Seek counsel from those of wisdom, not just agreement.</div>
+      <div class="formula-detail">
+        <div class="formula-step"><div class="formula-step-num">1</div><div>Identify 2–3 people who have: (a) experience, (b) good character, (c) no stake in your choice</div></div>
+        <div class="formula-step"><div class="formula-step-num">2</div><div>Ask them: "What would you do? What am I not seeing?"</div></div>
+        <div class="formula-step"><div class="formula-step-num">3</div><div>Distinguish between advice rooted in their fear vs. genuine wisdom</div></div>
+        <div style="margin-top:10px; font-size:0.77rem; color:var(--amber);">📌 Quranic principle: "And consult them in the matter" (3:159)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WEIGHTED PROS/CONS TOOL -->
+  <div class="panel visible" style="margin-bottom:32px;">
+    <div class="panel-header">
+      <div class="panel-icon">⚖</div>
+      <div>
+        <div class="panel-title">Weighing Scale — Pros & Costs</div>
+        <div class="panel-desc">List the genuine benefits and genuine costs of this decision below</div>
+      </div>
+    </div>
+    <div class="scale-container">
+      <div class="scale-side pros">
+        <div class="scale-side-title">✅ Benefits & Goods</div>
+        <div id="pros-list">
+          <input type="text" class="scale-input" placeholder="e.g., financial security…">
+          <input type="text" class="scale-input" placeholder="e.g., serves my family…">
+          <input type="text" class="scale-input" placeholder="e.g., better use of my skills…">
+        </div>
+        <button class="add-row-btn" onclick="addRow('pros-list')">+ Add benefit</button>
+      </div>
+      <div class="scale-side cons">
+        <div class="scale-side-title">⚠ Costs & Risks</div>
+        <div id="cons-list">
+          <input type="text" class="scale-input" placeholder="e.g., will uproot family…">
+          <input type="text" class="scale-input" placeholder="e.g., financial risk…">
+          <input type="text" class="scale-input" placeholder="e.g., less time for ibadah…">
+        </div>
+        <button class="add-row-btn" onclick="addRow('cons-list')">+ Add cost</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ META-ANALYSIS ═══════════════════════════════════════════ -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">التحليل العميق — Meta-Analysis</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section-title">How Are You Thinking Right Now?</div>
+  <div class="section-meta">Diagnose your cognitive & emotional state before you decide — this is the meta layer</div>
+
+  <div class="meta-panel">
+    <div class="meta-title">🧠 Cognitive State Assessment</div>
+    <div class="meta-desc">Your state of mind shapes your decision more than you realize. Answer honestly — this detects cognitive biases active in you right now.</div>
+
+    <div id="meta-questions-container"></div>
+
+    <button class="fin-calc-btn" onclick="runMetaAnalysis()" style="background:#4a90d9; margin-top:4px;">Analyse My Thinking State →</button>
+
+    <div class="bias-report" id="biasReport">
+      <div class="bias-report-title">⚠ Active Biases Detected</div>
+      <div id="biasTagsContainer"></div>
+      <div class="bias-advice" id="biasAdviceText"></div>
+    </div>
+  </div>
+
+  <!-- ══ FINANCIAL REALITY SNAPSHOT ════════════════════════════════ -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">الواقع المالي — Financial Reality</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section-title">Resource Reality Check</div>
+  <div class="section-meta">Ground the decision in actual numbers — are you deciding from need or from anxiety?</div>
+
+  <div class="panel visible" style="margin-bottom:28px;">
+    <div class="panel-header">
+      <div class="panel-icon">💰</div>
+      <div>
+        <div class="panel-title">Financial Snapshot</div>
+        <div class="panel-desc">Fill in what you know. Leave blank what does not apply. Currency is irrelevant — use your own.</div>
+      </div>
+    </div>
+    <div class="fin-grid">
+      <div class="fin-field">
+        <label>Monthly Income (net)</label>
+        <input type="number" class="fin-input" id="fin-income" placeholder="e.g. 50000">
+      </div>
+      <div class="fin-field">
+        <label>Monthly Expenses (essential)</label>
+        <input type="number" class="fin-input" id="fin-expenses" placeholder="e.g. 35000">
+      </div>
+      <div class="fin-field">
+        <label>Current Savings / Reserves</label>
+        <input type="number" class="fin-input" id="fin-savings" placeholder="e.g. 120000">
+      </div>
+      <div class="fin-field">
+        <label>Asset Value (if selling)</label>
+        <input type="number" class="fin-input" id="fin-asset" placeholder="e.g. 800000">
+      </div>
+      <div class="fin-field">
+        <label>Monthly Cost of This Asset</label>
+        <input type="number" class="fin-input" id="fin-asset-cost" placeholder="e.g. 8000 fuel/maintenance">
+      </div>
+      <div class="fin-field">
+        <label>Realistic Extra Monthly Earnings</label>
+        <input type="number" class="fin-input" id="fin-extra" placeholder="e.g. 15000 if I work harder">
+      </div>
+    </div>
+    <button class="fin-calc-btn" onclick="calcFinancial()">Run Financial Analysis →</button>
+
+    <div class="fin-result" id="finResult">
+      <div id="finRows"></div>
+      <div class="fin-verdict" id="finVerdict"></div>
+    </div>
+  </div>
+
+  <!-- ══ REVERSIBILITY & URGENCY MATRIX ════════════════════════════ -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">الوقت والقرار — Time & Reversibility</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section-title">Urgency & Reversibility Matrix</div>
+  <div class="section-meta">How much time you should spend deciding — and how carefully</div>
+
+  <div class="panel visible" style="margin-bottom:28px;">
+    <div class="panel-header">
+      <div class="panel-icon">⏳</div>
+      <div>
+        <div class="panel-title">Decision Classification</div>
+        <div class="panel-desc">Adjust the two sliders to classify your decision. The matrix will tell you how to approach it.</div>
+      </div>
+    </div>
+    <div class="matrix-axes">
+      <div class="axis-card">
+        <div class="axis-label">Urgency</div>
+        <input type="range" class="axis-slider" id="urgencySlider" min="1" max="10" value="5" oninput="updateMatrix()">
+        <div class="axis-val" id="urgencyVal">5 — Moderate</div>
+        <div style="font-size:0.72rem;color:#bba980;margin-top:4px;">1 = No deadline · 10 = Must decide today</div>
+      </div>
+      <div class="axis-card">
+        <div class="axis-label">Reversibility</div>
+        <input type="range" class="axis-slider" id="reversibilitySlider" min="1" max="10" value="5" oninput="updateMatrix()">
+        <div class="axis-val" id="reversibilityVal">5 — Partly reversible</div>
+        <div style="font-size:0.72rem;color:#bba980;margin-top:4px;">1 = Easily undone · 10 = Permanent / life-changing</div>
+      </div>
+    </div>
+    <div class="matrix-result visible" id="matrixResult">
+      <div class="matrix-badge" id="matrixBadge">—</div>
+      <div class="matrix-quadrant" id="matrixQuadrant">—</div>
+      <div class="matrix-advice" id="matrixAdvice">Adjust the sliders above.</div>
+    </div>
+  </div>
+
+  <!-- ══ SCENARIO COMPARISON ════════════════════════════════════════ -->
+  <div class="divider">
+    <div class="divider-line"></div>
+    <div class="divider-center">المقارنة — Scenario Comparison</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section-title">Compare Your Options Side by Side</div>
+  <div class="section-meta">Define up to 3 paths. Rate each across key life dimensions. The tool scores and ranks them.</div>
+
+  <div class="panel visible" style="margin-bottom:28px;">
+    <div class="panel-header">
+      <div class="panel-icon">📈</div>
+      <div>
+        <div class="panel-title">Scenario Comparison Table</div>
+        <div class="panel-desc">Name each option, then rate it 1–10 across six dimensions. Deen is weighted double.</div>
+      </div>
+    </div>
+
+    <div class="scenario-tabs">
+      <button class="scenario-tab active" onclick="switchScenario(0, this)">Option A</button>
+      <button class="scenario-tab" onclick="switchScenario(1, this)">Option B</button>
+      <button class="scenario-tab" onclick="switchScenario(2, this)">Option C</button>
+    </div>
+
+    <div class="scenario-form active" id="scenario-0">
+      <input type="text" class="scenario-name-input" placeholder="Name this option… e.g. Sell the car">
+      <div class="scenario-sliders" data-scenario="0"></div>
+    </div>
+    <div class="scenario-form" id="scenario-1">
+      <input type="text" class="scenario-name-input" placeholder="Name this option… e.g. Work harder this month">
+      <div class="scenario-sliders" data-scenario="1"></div>
+    </div>
+    <div class="scenario-form" id="scenario-2">
+      <input type="text" class="scenario-name-input" placeholder="Name this option… e.g. Take a loan temporarily">
+      <div class="scenario-sliders" data-scenario="2"></div>
+    </div>
+
+    <button class="scenario-compare-btn" onclick="compareScenarios()">Compare All Options →</button>
+
+    <div class="scenario-results" id="scenarioResults">
+      <div style="font-size:0.75rem;color:var(--amber);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px;">Weighted Score Ranking</div>
+      <div id="scenarioBars"></div>
+      <div class="scenario-winner" id="scenarioWinner"></div>
+    </div>
+  </div>
+
+  <!-- CALCULATE -->
+  <button class="calc-btn" onclick="calculateScore()">
+    Calculate My Final Clarity Score →
+  </button>
+
+  <!-- SCORE SECTION -->
+  <div class="score-section" id="scoreSection">
+    <div class="ornament" style="margin-top:32px;">
+      <div class="ornament-line"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-line"></div>
+    </div>
+
+    <div class="score-ring-wrapper">
+      <svg class="score-ring" viewBox="0 0 120 120">
+        <circle class="score-ring-bg" cx="60" cy="60" r="54"/>
+        <circle class="score-ring-fill" id="scoreRingFill" cx="60" cy="60" r="54"/>
+      </svg>
+      <div class="score-text">
+        <div class="score-number" id="scoreNumber">—</div>
+        <div class="score-label">Clarity</div>
+      </div>
+    </div>
+
+    <div class="score-verdict" id="scoreVerdict"></div>
+    <div class="score-guidance" id="scoreGuidance"></div>
+  </div>
+
+  <!-- FINAL REFLECTION -->
+  <div class="reflection-panel" id="reflectionPanel">
+    <div class="reflection-arabic">اللَّهُمَّ أَرِنَا الحَقَّ حَقًّا وَارزُقنا اتِّبَاعَه</div>
+    <div class="reflection-text">
+      "O Allah, show us the truth as truth and grant us the ability to follow it,<br>
+      and show us falsehood as falsehood and grant us the ability to avoid it."
+    </div>
+    <textarea class="reflection-notes" placeholder="Write your final reflection here… What does your heart say? What would the wisest version of you decide? Note this for yourself to revisit."></textarea>
+  </div>
+
+  <!-- ══ DECISION JOURNAL ══════════════════════════════════════════ -->
+  <div class="divider" style="margin-top:48px;">
+    <div class="divider-line"></div>
+    <div class="divider-center">السجل — Decision Journal</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="section-title">Your Decision Log</div>
+  <div class="section-meta">Saved in your browser. Revisit past decisions to build wisdom over time.</div>
+
+  <div class="panel visible" style="margin-bottom:32px;">
+    <div class="panel-header">
+      <div class="panel-icon">🗓</div>
+      <div>
+        <div class="panel-title">Save This Decision Session</div>
+        <div class="panel-desc">Record what you are deciding and when to revisit it. Your journal lives in this browser.</div>
+      </div>
+    </div>
+    <select class="revisit-select" id="revisitDays">
+      <option value="7">Revisit in 7 days</option>
+      <option value="14">Revisit in 14 days</option>
+      <option value="30" selected>Revisit in 30 days</option>
+      <option value="60">Revisit in 60 days</option>
+      <option value="90">Revisit in 90 days</option>
+    </select>
+    <button class="journal-save-btn" onclick="saveJournalEntry()">📖 Save to My Journal</button>
+
+    <div style="margin-top:24px;">
+      <div style="font-size:0.75rem;color:var(--amber);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">Past Entries</div>
+      <div id="journalEntriesList"><div class="journal-empty">No entries yet. Complete a decision session and save it here.</div></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="arabic-footer">وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ</div>
+    <div>"My success is not but through Allah" — Qur'an 11:88</div>
+    <div style="margin-top:8px; opacity:0.6;">Your answers remain private. This tool is an aid to reflection, not a replacement for du'a, wisdom, or shura.</div>
+  </footer>
+
+</div>
+
+<script>
+  // ══════════════════════════════════════════════════════════════
+  // ORIGINAL QUESTIONS
+  // ══════════════════════════════════════════════════════════════
+  const questions = {
+    deen: [
+      { text: "Is this action clearly halal, or at minimum not haram?", weight: 10 },
+      { text: "Will this decision bring me closer to Allah, or make me more heedless?", weight: 8 },
+      { text: "Does this involve any haram elements I am rationalizing away?", weight: 9, reverse: true },
+      { text: "Can I perform my five prayers and obligations while in this path?", weight: 8 },
+      { text: "Would I be comfortable if the Prophet ﷺ could see me making this choice?", weight: 9 },
+    ],
+    niyyah: [
+      { text: "Am I pursuing this for a sincere, defensible reason — not just ego or fear?", weight: 7 },
+      { text: "Would my intention remain the same if no one ever found out?", weight: 7 },
+      { text: "Am I running toward something, or running away from something?", weight: 6 },
+      { text: "Have I sat quietly with this decision, or am I acting impulsively?", weight: 6 },
+    ],
+    consequences: [
+      { text: "What is the realistic best-case outcome? Is it worth pursuing?", weight: 5 },
+      { text: "What is the realistic worst-case? Can I bear it and recover?", weight: 7 },
+      { text: "Will the effects of this decision last years, or is it reversible?", weight: 6 },
+      { text: "Am I trading long-term wellbeing for short-term comfort?", weight: 8, reverse: true },
+      { text: "Has someone I respect done something similar and flourished?", weight: 4 },
+    ],
+    people: [
+      { text: "Does this honor my duties to my parents, if they are living?", weight: 8 },
+      { text: "Does this serve or harm my spouse/children, if applicable?", weight: 8 },
+      { text: "Am I taking on rights I cannot fulfil toward others?", weight: 7, reverse: true },
+      { text: "Have I consulted those with legitimate say in this matter?", weight: 6 },
+    ],
+  };
+
+  const answers = {};
+
+  function buildQuestions() {
+    Object.entries(questions).forEach(([category, qList]) => {
+      const container = document.getElementById('q-' + category);
+      qList.forEach((q, i) => {
+        const id = category + '-' + i;
+        const li = document.createElement('li');
+        li.className = 'question-item';
+        li.innerHTML = `
+          <div class="question-text">${q.text}</div>
+          <div class="answer-options">
+            <button class="answer-btn" onclick="selectAnswer('${id}', 'yes', this)">✓ Yes</button>
+            <button class="answer-btn" onclick="selectAnswer('${id}', 'no', this)">✗ No</button>
+            <button class="answer-btn" onclick="selectAnswer('${id}', 'unsure', this)">~ Unsure</button>
+          </div>
+        `;
+        container.appendChild(li);
+      });
+    });
+  }
+
+  function selectAnswer(id, value, btn) {
+    answers[id] = value;
+    const parent = btn.closest('.answer-options');
+    parent.querySelectorAll('.answer-btn').forEach(b => b.classList.remove('selected-yes','selected-no','selected-unsure'));
+    btn.classList.add('selected-' + value);
+  }
+
+  function toggleFormula(card) { card.classList.toggle('expanded'); }
+
+  function addRow(containerId) {
+    const container = document.getElementById(containerId);
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'scale-input';
+    input.placeholder = 'Add another…';
+    container.appendChild(input);
+    input.focus();
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // META-ANALYSIS
+  // ══════════════════════════════════════════════════════════════
+  const metaQuestions = [
+    {
+      id: 'pressure',
+      text: 'Am I deciding under external deadline pressure right now?',
+      options: ['No pressure at all', 'Some pressure', 'Strong external pressure', 'Panic / forced decision'],
+      biasMap: [null, null, 'Artificial Urgency Bias', 'Scarcity & Panic Bias']
+    },
+    {
+      id: 'emotion',
+      text: 'What is my emotional state at this moment?',
+      options: ['Calm and clear', 'Slightly anxious', 'Worried or stressed', 'Fearful / desperate'],
+      biasMap: [null, null, 'Fear-Driven Bias', 'Loss Aversion + Desperation Bias']
+    },
+    {
+      id: 'sleep',
+      text: 'Have I slept well and eaten today?',
+      options: ['Yes, fully rested', 'Mostly yes', 'Not really', 'No — exhausted'],
+      biasMap: [null, null, 'Depleted Cognition Risk', 'Decision Fatigue — High Risk']
+    },
+    {
+      id: 'influence',
+      text: 'Is someone else\'s opinion heavily influencing me right now?',
+      options: ['No — this is my own thinking', 'Slightly', 'Quite a lot', 'Someone is pressuring me'],
+      biasMap: [null, null, 'Social Conformity Bias', 'External Authority Bias']
+    },
+    {
+      id: 'sunk',
+      text: 'Am I holding on to something because I already invested in it (time, money, emotion)?',
+      options: ['No', 'Maybe a little', 'Yes, probably', 'Definitely yes'],
+      biasMap: [null, null, 'Sunk Cost Fallacy', 'Strong Sunk Cost Fallacy']
+    },
+    {
+      id: 'present',
+      text: 'Am I choosing short-term relief over long-term wellbeing?',
+      options: ['No', 'Possibly', 'Likely yes', 'Definitely yes'],
+      biasMap: [null, 'Present Bias Risk', 'Present Bias', 'Strong Present Bias']
+    },
+    {
+      id: 'framing',
+      text: 'Have I considered this as anything other than a yes/no binary?',
+      options: ['Yes — I see multiple options', 'I tried to', 'Not really', 'I only see two choices'],
+      biasMap: [null, null, 'Binary Framing Risk', 'Binary Framing Trap']
+    },
+    {
+      id: 'avoidance',
+      text: 'Am I making this decision to avoid dealing with a deeper problem?',
+      options: ['No', 'I don\'t think so', 'Possibly', 'Yes, probably'],
+      biasMap: [null, null, 'Avoidance Pattern', 'Displacement Decision']
+    },
+  ];
+
+  const metaAnswers = {};
+
+  function buildMetaQuestions() {
+    const container = document.getElementById('meta-questions-container');
+    metaQuestions.forEach(q => {
+      const div = document.createElement('div');
+      div.className = 'meta-q';
+      div.innerHTML = `<div class="meta-q-text">${q.text}</div><div class="meta-options">${
+        q.options.map((opt, i) =>
+          `<button class="meta-btn" onclick="selectMeta('${q.id}', ${i}, this)">${opt}</button>`
+        ).join('')
+      }</div>`;
+      container.appendChild(div);
+    });
+  }
+
+  function selectMeta(id, idx, btn) {
+    metaAnswers[id] = idx;
+    btn.closest('.meta-options').querySelectorAll('.meta-btn').forEach(b => b.classList.remove('meta-selected'));
+    btn.classList.add('meta-selected');
+  }
+
+  function runMetaAnalysis() {
+    const detectedBiases = [];
+    const adviceParts = [];
+
+    metaQuestions.forEach(q => {
+      const idx = metaAnswers[q.id];
+      if (idx !== undefined && q.biasMap[idx]) {
+        detectedBiases.push(q.biasMap[idx]);
+      }
+    });
+
+    const report = document.getElementById('biasReport');
+    const tagsEl = document.getElementById('biasTagsContainer');
+    const adviceEl = document.getElementById('biasAdviceText');
+
+    report.classList.add('visible');
+
+    if (detectedBiases.length === 0) {
+      tagsEl.innerHTML = '<span class="bias-tag" style="border-color:var(--sage);color:var(--sage);">✓ No significant biases flagged</span>';
+      adviceEl.textContent = 'Your thinking state appears clear and calm. This is a good time to decide. Proceed with istikhara and shura.';
+    } else {
+      tagsEl.innerHTML = detectedBiases.map(b => `<span class="bias-tag">${b}</span>`).join('');
+
+      const adviceMap = {
+        'Artificial Urgency Bias': 'Question the deadline. Is it real or manufactured? Most "now or never" moments are not.',
+        'Scarcity & Panic Bias': 'Panic distorts judgment severely. Delay the decision by at least 24 hours if possible.',
+        'Fear-Driven Bias': 'Fear narrows thinking to worst cases. Write down realistic (not catastrophic) outcomes.',
+        'Loss Aversion + Desperation Bias': 'You may be overweighting what you could lose vs. what you could gain. Check the actual math.',
+        'Depleted Cognition Risk': 'Sleep and food affect decisions as much as intelligence. Rest before deciding if possible.',
+        'Decision Fatigue — High Risk': 'Do not decide today. Sleep, eat, pray, then return to this.',
+        'Social Conformity Bias': 'Separate what you want from what others want for you. Write your opinion before consulting others.',
+        'External Authority Bias': 'Someone pressuring you has their own interests. Identify them before accepting their framing.',
+        'Sunk Cost Fallacy': 'Past investment does not justify future commitment if the path is wrong. What would you choose fresh today?',
+        'Strong Sunk Cost Fallacy': 'You are holding on because of what you already spent — not because the future is good. Let go if needed.',
+        'Present Bias Risk': 'Check: is this choice serving the next week or the next decade?',
+        'Present Bias': 'You are likely overvaluing short-term comfort. Write out what you want your life to look like in 5 years.',
+        'Strong Present Bias': 'This is a significant risk. Your future self may not thank your present self. Slow down.',
+        'Binary Framing Risk': 'Try listing 3 options you haven\'t considered. Ask someone: "What would you do that I haven\'t thought of?"',
+        'Binary Framing Trap': 'This is a false binary. Use the scenario comparison tool below to explore other paths.',
+        'Avoidance Pattern': 'Ask honestly: what problem am I not facing by making this decision?',
+        'Displacement Decision': 'This decision may be a way to avoid confronting something harder. Identify that root issue first.',
+      };
+
+      const uniqueAdvice = [...new Set(detectedBiases.map(b => adviceMap[b]).filter(Boolean))];
+      adviceEl.innerHTML = uniqueAdvice.map((a,i) => `<strong>${i+1}.</strong> ${a}`).join('<br><br>');
+    }
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // FINANCIAL SNAPSHOT
+  // ══════════════════════════════════════════════════════════════
+  function calcFinancial() {
+    const income   = parseFloat(document.getElementById('fin-income').value) || 0;
+    const expenses = parseFloat(document.getElementById('fin-expenses').value) || 0;
+    const savings  = parseFloat(document.getElementById('fin-savings').value) || 0;
+    const asset    = parseFloat(document.getElementById('fin-asset').value) || 0;
+    const assetCost= parseFloat(document.getElementById('fin-asset-cost').value) || 0;
+    const extra    = parseFloat(document.getElementById('fin-extra').value) || 0;
+
+    const surplus     = income - expenses;
+    const monthsRunway= surplus > 0 ? null : (savings / Math.max(1, Math.abs(surplus))).toFixed(1);
+    const savingsRatio= income > 0 ? ((savings / income) * 100).toFixed(0) : 0;
+    const assetMonths = asset > 0 && assetCost > 0 ? (asset / assetCost).toFixed(0) : null;
+    const extraSurplus= surplus + extra;
+    const needToSell  = surplus < 0;
+
+    const rows = [];
+    if (income)    rows.push(['Monthly surplus / deficit', surplus >= 0 ? `+${surplus.toLocaleString()}` : `−${Math.abs(surplus).toLocaleString()}`, surplus >= 0]);
+    if (savings)   rows.push(['Months of runway (savings)', monthsRunway ? `${monthsRunway} months` : 'Comfortable (surplus exists)', true]);
+    if (savings && income) rows.push(['Savings as % of monthly income', `${savingsRatio}%`, savingsRatio >= 300]);
+    if (asset && assetCost) rows.push(['Asset covers asset cost for', `${assetMonths} months`, true]);
+    if (extra)     rows.push(['Surplus if extra income achieved', `+${extraSurplus.toLocaleString()}`, extraSurplus > 0]);
+
+    const resultEl = document.getElementById('finResult');
+    const rowsEl   = document.getElementById('finRows');
+    const verdictEl= document.getElementById('finVerdict');
+    resultEl.classList.add('visible');
+
+    rowsEl.innerHTML = rows.map(([label, value, good]) => `
+      <div class="fin-result-row">
+        <span class="fin-result-label">${label}</span>
+        <span class="fin-result-value" style="color:${good ? 'var(--sage)' : 'var(--red-soft)'}">${value}</span>
+      </div>`).join('');
+
+    let verdict, cls;
+    if (income === 0 && savings === 0) {
+      verdict = 'Enter at least your income and expenses to get a financial picture.';
+      cls = 'warn';
+    } else if (needToSell && monthsRunway && parseFloat(monthsRunway) < 3) {
+      verdict = `⚠ Your runway is only ${monthsRunway} months. The financial pressure is real. Selling the asset or finding alternative income quickly is genuinely important — not just anxiety.`;
+      cls = 'bad';
+    } else if (needToSell && monthsRunway && parseFloat(monthsRunway) >= 3 && parseFloat(monthsRunway) < 9) {
+      verdict = `You have roughly ${monthsRunway} months of runway. There is time to explore alternatives before a forced decision. The extra income scenario (if realistic) could resolve this without selling.`;
+      cls = 'warn';
+    } else if (!needToSell && extra > 0) {
+      verdict = `You currently run a surplus. With extra income, the picture improves further. The pressure to sell may be more anxiety-driven than necessity-driven. Revisit after confirming the extra income is realistic.`;
+      cls = 'good';
+    } else if (!needToSell) {
+      verdict = `You have a monthly surplus. The financial case for selling is not urgent. Consider whether this is driven by a genuine need or by discomfort with risk.`;
+      cls = 'good';
+    } else {
+      verdict = `Your expenses exceed income. The deficit needs to be addressed. Selling the asset or increasing income are both valid paths — compare them using the scenario tool below.`;
+      cls = 'warn';
+    }
+
+    verdictEl.className = `fin-verdict ${cls}`;
+    verdictEl.textContent = verdict;
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // REVERSIBILITY & URGENCY MATRIX
+  // ══════════════════════════════════════════════════════════════
+  const urgencyLabels   = ['','Very low','Very low','Low','Low','Moderate','Moderate','High','High','Very high','Urgent'];
+  const reversLabels    = ['','Very easy to undo','Very easy to undo','Mostly reversible','Mostly reversible','Partly reversible','Partly reversible','Hard to undo','Hard to undo','Very permanent','Permanent / life-changing'];
+
+  function updateMatrix() {
+    const u = parseInt(document.getElementById('urgencySlider').value);
+    const r = parseInt(document.getElementById('reversibilitySlider').value);
+    document.getElementById('urgencyVal').textContent       = `${u} — ${urgencyLabels[u]}`;
+    document.getElementById('reversibilityVal').textContent = `${r} — ${reversLabels[r]}`;
+
+    const result   = document.getElementById('matrixResult');
+    const badge    = document.getElementById('matrixBadge');
+    const quadrant = document.getElementById('matrixQuadrant');
+    const advice   = document.getElementById('matrixAdvice');
+    result.classList.add('visible');
+
+    let q, a, color, bg;
+
+    if (u >= 7 && r >= 7) {
+      q = '🔴 High Urgency · High Stakes';
+      a = 'This is the most dangerous quadrant. Extreme urgency with permanent consequences is where the worst decisions get made. Slow down by any means necessary. Even 24 hours of delay can save you from a permanent mistake. Seek shura immediately. Do istikhara tonight.';
+      color = '#8b2a2a'; bg = 'rgba(139,42,42,0.08)';
+    } else if (u >= 7 && r < 7) {
+      q = '🟡 High Urgency · Lower Stakes';
+      a = 'It feels urgent, but the decision is mostly reversible — which means even if you choose imperfectly, you can correct course. Decide quickly using your best judgment. Do not let the urgency paralyze you. A good-enough decision now beats a perfect decision too late.';
+      color = '#8b5e1a'; bg = 'rgba(201,168,76,0.08)';
+    } else if (u < 7 && r >= 7) {
+      q = '🟠 Lower Urgency · High Stakes';
+      a = 'This is where you should spend the most time. The decision is permanent or near-permanent, but you have time. Use all available frameworks. Do multiple istikhara over days. Consult widely. There is no prize for deciding quickly here — depth and clarity are everything.';
+      color = '#7a4a10'; bg = 'rgba(139,94,26,0.08)';
+    } else {
+      q = '🟢 Lower Urgency · Lower Stakes';
+      a = 'This decision can be made relatively efficiently. It is neither permanent nor immediately pressing. A good process is still worthwhile, but do not over-analyze. Decide within a week, then act.';
+      color = '#3a5c3d'; bg = 'rgba(92,122,94,0.08)';
+    }
+
+    badge.textContent = q;
+    badge.style.background = bg;
+    badge.style.color = color;
+    badge.style.border = `1px solid ${color}`;
+    quadrant.style.display = 'none';
+    advice.textContent = a;
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // SCENARIO COMPARISON
+  // ══════════════════════════════════════════════════════════════
+  const scenarioDimensions = [
+    { id: 'deen',    label: 'Deen impact',       weight: 2.0, tip:'How well does this serve your relationship with Allah?' },
+    { id: 'finance', label: 'Financial outcome',  weight: 1.5, tip:'Long-term financial health, not just short-term relief.' },
+    { id: 'family',  label: 'Family & relations', weight: 1.5, tip:'Effect on those you are responsible for.' },
+    { id: 'stress',  label: 'Peace of mind',      weight: 1.2, tip:'How much inner calm will this path give you?' },
+    { id: 'growth',  label: 'Personal growth',    weight: 1.0, tip:'Will this make you stronger, more capable, wiser?' },
+    { id: 'future',  label: 'Long-term future',   weight: 1.8, tip:'Where does this path lead in 3–5 years?' },
+  ];
+
+  function buildScenarioSliders() {
+    [0,1,2].forEach(s => {
+      const container = document.querySelector(`.scenario-sliders[data-scenario="${s}"]`);
+      scenarioDimensions.forEach(dim => {
+        const row = document.createElement('div');
+        row.className = 'slider-row';
+        row.title = dim.tip;
+        row.innerHTML = `
+          <label>${dim.label}</label>
+          <input type="range" min="1" max="10" value="5" id="sc-${s}-${dim.id}"
+            oninput="document.getElementById('sv-${s}-${dim.id}').textContent=this.value">
+          <span class="sval" id="sv-${s}-${dim.id}">5</span>`;
+        container.appendChild(row);
+      });
+    });
+  }
+
+  function switchScenario(idx, btn) {
+    document.querySelectorAll('.scenario-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.scenario-form').forEach(f => f.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('scenario-' + idx).classList.add('active');
+  }
+
+  function compareScenarios() {
+    const names = [0,1,2].map(s => {
+      const inp = document.querySelector(`#scenario-${s} .scenario-name-input`);
+      return inp.value.trim() || `Option ${String.fromCharCode(65+s)}`;
+    });
+
+    const scores = [0,1,2].map(s => {
+      let total = 0, maxTotal = 0;
+      scenarioDimensions.forEach(dim => {
+        const val = parseInt(document.getElementById(`sc-${s}-${dim.id}`).value);
+        total    += val * dim.weight;
+        maxTotal += 10 * dim.weight;
+      });
+      return Math.round((total / maxTotal) * 100);
+    });
+
+    const resultsEl = document.getElementById('scenarioResults');
+    const barsEl    = document.getElementById('scenarioBars');
+    const winnerEl  = document.getElementById('scenarioWinner');
+    resultsEl.classList.add('visible');
+
+    const maxScore = Math.max(...scores);
+    const winnerIdx = scores.indexOf(maxScore);
+
+    barsEl.innerHTML = scores.map((score, i) => `
+      <div class="scenario-bar-row">
+        <div class="scenario-bar-label">${names[i]}</div>
+        <div class="scenario-bar-track">
+          <div class="scenario-bar-fill" style="width:0%" id="bar-fill-${i}"></div>
+        </div>
+        <div class="scenario-bar-score">${score}%</div>
+      </div>`).join('');
+
+    setTimeout(() => {
+      scores.forEach((score, i) => {
+        document.getElementById(`bar-fill-${i}`).style.width = score + '%';
+        if (i === winnerIdx) {
+          document.getElementById(`bar-fill-${i}`).style.background = 'linear-gradient(90deg, var(--sage), var(--sage-light))';
+        }
+      });
+    }, 100);
+
+    const gap = scores.sort((a,b)=>b-a);
+    const isClose = (gap[0] - gap[1]) <= 8;
+    winnerEl.innerHTML = `
+      <div class="scenario-winner-title">✦ ${names[winnerIdx]} scores highest</div>
+      <div class="scenario-winner-note">${isClose
+        ? 'The scores are close. Do not treat this as definitive — revisit your ratings and trust your istikhara over the numbers.'
+        : 'A clear lead. This path scores better across the dimensions that matter. Confirm with your istikhara and shura.'
+      }</div>`;
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // CLARITY SCORE (ORIGINAL, UNCHANGED)
+  // ══════════════════════════════════════════════════════════════
+  function calculateScore() {
+    let totalWeight = 0;
+    let earnedScore = 0;
+    let deenFailed  = false;
+
+    Object.entries(questions).forEach(([category, qList]) => {
+      qList.forEach((q, i) => {
+        const id = category + '-' + i;
+        const answer = answers[id];
+        totalWeight += q.weight;
+        if (!answer || answer === 'unsure') {
+          earnedScore += q.weight * 0.4;
+        } else {
+          const isPositive = q.reverse ? answer === 'no' : answer === 'yes';
+          if (isPositive) {
+            earnedScore += q.weight;
+          } else {
+            if (category === 'deen' && q.weight >= 9) deenFailed = true;
+          }
+        }
+      });
+    });
+
+    const percent = Math.round((earnedScore / totalWeight) * 100);
+    const circumference = 339.3;
+    const offset = circumference - (circumference * percent / 100);
+
+    const fill        = document.getElementById('scoreRingFill');
+    const numEl       = document.getElementById('scoreNumber');
+    const verdictEl   = document.getElementById('scoreVerdict');
+    const guidanceEl  = document.getElementById('scoreGuidance');
+    const scoreSection= document.getElementById('scoreSection');
+    const reflPanel   = document.getElementById('reflectionPanel');
+
+    scoreSection.classList.add('visible');
+    setTimeout(() => {
+      fill.style.strokeDashoffset = offset;
+      numEl.textContent = percent + '%';
+    }, 100);
+
+    let verdict, guidance, color;
+    if (deenFailed) {
+      verdict  = "⛔ Deen Concern Detected";
+      guidance = "One or more foundational Islamic concerns were flagged. Revisit the deen and halal questions first. If something is clearly haram, no worldly benefit justifies it. Seek a scholar's opinion if uncertain.";
+      color    = '#8b2a2a';
+    } else if (percent >= 80) {
+      verdict  = "✦ Strong Alignment";
+      guidance = "The signs point toward proceeding with trust in Allah. Ensure you have made istikhara, consulted those of wisdom, and then move forward with tawakkul.";
+      color    = '#5c7a5e';
+    } else if (percent >= 60) {
+      verdict  = "◈ Proceed with Reflection";
+      guidance = "There is reasonable alignment, but notable uncertainties remain. Resolve the weaker areas through shura, more research, or further istikhara. Do not rush.";
+      color    = '#c9a84c';
+    } else if (percent >= 40) {
+      verdict  = "⚐ Significant Uncertainty";
+      guidance = "Many questions remain unresolved or pointed to concern. You are not yet ready to decide with clarity. Slow down, consult, and reflect more deeply.";
+      color    = '#c9a84c';
+    } else {
+      verdict  = "✗ Proceed with Caution";
+      guidance = "The balance of your answers raises serious concerns. Consider whether this is the right time or path. Revisit with fresh eyes after istikhara and honest counsel.";
+      color    = '#8b2a2a';
+    }
+
+    fill.style.stroke = color;
+    verdictEl.textContent = verdict;
+    verdictEl.style.color = color;
+    guidanceEl.textContent = guidance;
+    reflPanel.classList.add('visible');
+
+    // Store score for journal
+    window._lastClarityScore = percent;
+    window._lastVerdict = verdict;
+
+    setTimeout(() => {
+      reflPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 600);
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // DECISION JOURNAL
+  // ══════════════════════════════════════════════════════════════
+  const JOURNAL_KEY = 'decisionCompassJournal';
+
+  function loadJournal() {
+    try { return JSON.parse(localStorage.getItem(JOURNAL_KEY)) || []; }
+    catch { return []; }
+  }
+
+  function saveJournal(entries) {
+    localStorage.setItem(JOURNAL_KEY, JSON.stringify(entries));
+  }
+
+  function renderJournal() {
+    const entries = loadJournal();
+    const container = document.getElementById('journalEntriesList');
+    if (entries.length === 0) {
+      container.innerHTML = '<div class="journal-empty">No entries yet. Complete a decision session and save it here.</div>';
+      return;
+    }
+    container.innerHTML = entries.slice().reverse().map((e, ri) => {
+      const realIdx = entries.length - 1 - ri;
+      const scoreClass = e.score >= 70 ? 'score-high' : e.score >= 45 ? 'score-mid' : 'score-low';
+      const revisitDate = new Date(e.revisitDate).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+      const today = new Date();
+      const isPast = new Date(e.revisitDate) <= today;
+      return `
+        <div class="journal-entry">
+          <button class="journal-delete-btn" onclick="deleteEntry(${realIdx})" title="Delete">✕</button>
+          <div class="journal-entry-header">
+            <div class="journal-entry-decision">${e.decision || '(No decision text written)'}</div>
+            <div class="journal-entry-date">${new Date(e.date).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}</div>
+          </div>
+          <div class="journal-entry-meta">
+            <span class="journal-tag ${scoreClass}">Clarity: ${e.score !== null ? e.score + '%' : 'Not scored'}</span>
+            ${e.verdict ? `<span class="journal-tag">${e.verdict.replace(/[✦◈⚐✗⛔]/g,'').trim()}</span>` : ''}
+          </div>
+          <div class="journal-revisit" style="color:${isPast ? 'var(--red-soft)' : 'var(--amber)'}">
+            ${isPast ? '🔔 Due for review:' : '📅 Revisit on:'} ${revisitDate}
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  function saveJournalEntry() {
+    const decision   = (document.getElementById('decisionText').value || '').trim();
+    const revisitDays= parseInt(document.getElementById('revisitDays').value);
+    const revisitDate= new Date(Date.now() + revisitDays * 86400000).toISOString();
+    const score      = window._lastClarityScore !== undefined ? window._lastClarityScore : null;
+    const verdict    = window._lastVerdict || null;
+
+    const entries = loadJournal();
+    entries.push({ date: new Date().toISOString(), decision, score, verdict, revisitDate });
+    saveJournal(entries);
+    renderJournal();
+
+    const btn = document.querySelector('.journal-save-btn');
+    const orig = btn.textContent;
+    btn.textContent = '✓ Saved!';
+    btn.style.background = 'var(--sage)';
+    setTimeout(() => { btn.textContent = orig; btn.style.background = 'var(--deep)'; }, 2000);
+  }
+
+  function deleteEntry(idx) {
+    const entries = loadJournal();
+    entries.splice(idx, 1);
+    saveJournal(entries);
+    renderJournal();
+  }
+
+  // ══════════════════════════════════════════════════════════════
+  // INIT
+  // ══════════════════════════════════════════════════════════════
+  buildQuestions();
+  buildMetaQuestions();
+  buildScenarioSliders();
+  updateMatrix();
+  renderJournal();
+</script>
+</body>
+</html>
