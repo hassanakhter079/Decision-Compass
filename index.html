@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Decision Compass — مستشارك</title>
+<script src="https://hassanakhter079.github.io/After-Salah-Zikr/cloud-sync.js" data-app="decision-compass"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Amiri:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -2132,6 +2133,9 @@
   buildScenarioSliders();
   updateMatrix();
   renderJournal();
+  window.addEventListener('cloud-sync-applied', () => {
+    renderJournal();
+  });
 </script>
 </body>
 </html>
